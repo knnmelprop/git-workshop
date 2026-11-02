@@ -15,6 +15,9 @@ A commit is a save point. Push uploads your save points to GitHub; pull download
 
 ## Setup (once)
 
+> [!TIP]
+> If you want to keep your email private, check https://github.com/settings/emails and use the email provided there instead of your private email. It would look something like `141524111+Arseni10Lk@users.noreply.github.com`
+
 ```
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"

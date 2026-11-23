@@ -2,7 +2,7 @@
 
 Do this **at home, before the workshop**. It takes about 15 minutes. At the end you'll run one test command. If it works, you're ready.
 
-- [ ] 1. GitHub account and access to the workshop repo
+- [ ] 1. Sign in to GitHub
 - [ ] 2. Install git
 - [ ] 3. Tell git who you are
 - [ ] 4. Sign in to GitHub from git
@@ -11,12 +11,12 @@ Do this **at home, before the workshop**. It takes about 15 minutes. At the end 
 > [!IMPORTANT]
 > Type the commands exactly as shown, one line at a time, and press Enter after each one. Replace only the parts in `"quotes"` that are clearly yours (your name, your email).
 
-## 1. GitHub account and access
+## 1. Sign in to GitHub
 
-1. If you don't have a GitHub account yet, create one at https://github.com/signup.
-2. Send your **GitHub username** to the workshop organizer.
-3. You'll get an invitation email from GitHub to join **knnmelprop**. Click **Join** / **Accept invitation**.
-   No email? Open https://github.com/orgs/knnmelprop/invitation while signed in.
+You already have access: every member of the **knnmelprop** organization can push to the workshop repo.
+
+1. Sign in at https://github.com/login with the GitHub account that is in **knnmelprop**.
+2. Remember which account it is. Use the same one in step 4.
 
 ## 2. Install git
 
@@ -160,7 +160,7 @@ That's it. Don't clone the repo yet: we'll do that together at the workshop.
 | You see | Fix |
 |---|---|
 | `git: command not found` / `'git' is not recognized` | Windows: use **Git Bash**, not Command Prompt or PowerShell. macOS/Linux: redo step 2, then close and reopen the terminal. |
-| `Repository not found` | You haven't accepted the invitation yet (step 1), or you signed in as a different GitHub account. Check with the organizer. |
+| `Repository not found` | You signed in with a GitHub account that isn't in **knnmelprop**. Redo step 4 with your club account. Still failing? Send your GitHub username to the organizer. |
 | Asked for a **password** in the terminal | Press <kbd>Ctrl</kbd>+<kbd>C</kbd> and do step 4. GitHub doesn't accept passwords here. |
 | `gh: command not found` | Install the GitHub CLI (step 2), then close and reopen the terminal. |
 | `git version 2.22` or older | Update git: reinstall (Windows), `brew upgrade git` (macOS), or your package manager (Linux). |

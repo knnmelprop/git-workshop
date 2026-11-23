@@ -15,6 +15,9 @@ A commit is a save point. Push uploads your save points to GitHub; pull download
 
 ## Setup (once)
 
+> [!IMPORTANT]
+> **Before the workshop:** install and configure git with [git-setup.md](git-setup.md). If you did, skip the `git config` lines below and start at `git clone`.
+
 > [!TIP]
 > If you want to keep your email private, check https://github.com/settings/emails and use the email provided there instead of your private email. It would look something like `141524111+Arseni10Lk@users.noreply.github.com`
 

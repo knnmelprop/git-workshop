@@ -2,23 +2,15 @@
 
 Do this **at home, before the workshop**. It takes about 15 minutes. At the end you'll run one test command. If it works, you're ready.
 
-- [ ] 1. Sign in to GitHub
-- [ ] 2. Install git
-- [ ] 3. Tell git who you are
-- [ ] 4. Sign in to GitHub from git
-- [ ] 5. Test
+- [ ] 1. Install git
+- [ ] 2. Tell git who you are
+- [ ] 3. Sign in to GitHub from git
+- [ ] 4. Test
 
 > [!IMPORTANT]
 > Type the commands exactly as shown, one line at a time, and press Enter after each one. Replace only the parts in `"quotes"` that are clearly yours (your name, your email).
 
-## 1. Sign in to GitHub
-
-You already have access: every member of the **knnmelprop** organization can push to the workshop repo.
-
-1. Sign in at https://github.com/login with the GitHub account that is in **knnmelprop**.
-2. Remember which account it is. Use the same one in step 4.
-
-## 2. Install git
+## 1. Install git
 
 Pick your system.
 
@@ -43,7 +35,7 @@ Pick your system.
    git --version
    ```
 3. If a window asks you to install the **command line developer tools**, click **Install** and wait until it finishes (5 to 10 minutes). Then run `git --version` again.
-4. Install the GitHub CLI, which you need in step 4. If you have [Homebrew](https://brew.sh):
+4. Install the GitHub CLI, which you need in step 3. If you have [Homebrew](https://brew.sh):
    ```
    brew install gh
    ```
@@ -77,7 +69,7 @@ git --version
 
 You should see something like `git version 2.47.1`. Any version **2.23 or newer** is fine.
 
-## 3. Tell git who you are
+## 2. Tell git who you are
 
 Your name and email go into every commit you make. Run these four lines and use your own name:
 
@@ -105,14 +97,14 @@ git config --global --list
 
 You should see your `user.name`, `user.email`, `pull.rebase=true` and `init.defaultbranch=main`.
 
-## 4. Sign in to GitHub from git
+## 3. Sign in to GitHub from git
 
 GitHub doesn't accept your password from the terminal. Sign in once through your browser instead.
 
 <details>
 <summary><b>Windows</b></summary>
 
-Nothing to install: Git for Windows includes a sign-in helper. A browser window will open during the test in step 5. Choose **Sign in with your browser** and click **Authorize**.
+Nothing to install: Git for Windows includes a sign-in helper. A browser window will open during the test in step 4. Choose **Sign in with your browser** and click **Authorize**.
 
 </details>
 
@@ -138,7 +130,7 @@ Copy the one-time code it shows, press Enter, paste the code in the browser, and
 
 </details>
 
-## 5. Test
+## 4. Test
 
 Run:
 
@@ -159,9 +151,9 @@ That's it. Don't clone the repo yet: we'll do that together at the workshop.
 
 | You see | Fix |
 |---|---|
-| `git: command not found` / `'git' is not recognized` | Windows: use **Git Bash**, not Command Prompt or PowerShell. macOS/Linux: redo step 2, then close and reopen the terminal. |
-| `Repository not found` | You signed in with a GitHub account that isn't in **knnmelprop**. Redo step 4 with your club account. Still failing? Send your GitHub username to the organizer. |
-| Asked for a **password** in the terminal | Press <kbd>Ctrl</kbd>+<kbd>C</kbd> and do step 4. GitHub doesn't accept passwords here. |
-| `gh: command not found` | Install the GitHub CLI (step 2), then close and reopen the terminal. |
+| `git: command not found` / `'git' is not recognized` | Windows: use **Git Bash**, not Command Prompt or PowerShell. macOS/Linux: redo step 1, then close and reopen the terminal. |
+| `Repository not found` | You signed in with a GitHub account that isn't in **knnmelprop**. Redo step 3 with your club account. Still failing? Send your GitHub username to the organizer. |
+| Asked for a **password** in the terminal | Press <kbd>Ctrl</kbd>+<kbd>C</kbd> and do step 3. GitHub doesn't accept passwords here. |
+| `gh: command not found` | Install the GitHub CLI (step 1), then close and reopen the terminal. |
 | `git version 2.22` or older | Update git: reinstall (Windows), `brew upgrade git` (macOS), or your package manager (Linux). |
 | Something else | Take a screenshot and send it to the organizer before the workshop. |

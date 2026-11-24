@@ -152,8 +152,7 @@ That's it. Don't clone the repo yet: we'll do that together at the workshop.
 | You see | Fix |
 |---|---|
 | `git: command not found` / `'git' is not recognized` | Windows: use **Git Bash**, not Command Prompt or PowerShell. macOS/Linux: redo step 1, then close and reopen the terminal. |
-| `Repository not found` | You signed in with a GitHub account that isn't in **knnmelprop**. Redo step 3 with your club account. Still failing? Send your GitHub username to the organizer. |
 | Asked for a **password** in the terminal | Press <kbd>Ctrl</kbd>+<kbd>C</kbd> and do step 3. GitHub doesn't accept passwords here. |
 | `gh: command not found` | Install the GitHub CLI (step 1), then close and reopen the terminal. |
 | `git version 2.22` or older | Update git: reinstall (Windows), `brew upgrade git` (macOS), or your package manager (Linux). |
-| Something else | Take a screenshot and send it to the organizer before the workshop. |
+| Something else | Take a screenshot and send it to Arseni before the workshop. |
